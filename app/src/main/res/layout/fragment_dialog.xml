@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/custom_edit_text">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textColor="@color/light_blue_600"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingVertical="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tittle"
+        tools:text="Lorem impsum test lprem sda eesai sadklm saklmmd adksmldsa" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:text="@string/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

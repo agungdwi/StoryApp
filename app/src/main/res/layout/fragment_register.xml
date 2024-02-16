@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.authentication.RegisterFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/story"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/light_blue_600" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="20dp"
+        android:text="@string/register"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:transitionName="title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <EditText
+        android:id="@+id/ed_register_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_edit_text"
+        android:hint="@string/name"
+        android:autofillHints="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_register" />
+
+    <com.example.myapplication.ui.customview.EmailEditText
+        android:id="@+id/ed_register_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_edit_text"
+        android:minHeight="48dp"
+        android:paddingHorizontal="20dp"
+        android:transitionName="email"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_register_name"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+
+    <com.example.myapplication.ui.customview.PasswordEditText
+        android:id="@+id/ed_register_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_edit_text"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingHorizontal="20dp"
+        android:transitionName="password"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_register_email" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:minHeight="48dp"
+        android:text="@string/sign_up"
+        android:transitionName="button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_register_password" />
+
+    <LinearLayout
+        android:id="@+id/container_misc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:transitionName="misc"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton">
+
+        <TextView
+            android:id="@+id/label_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ui_tv_login"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sign_in"
+            android:textColor="@color/light_blue_600"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_edit_text"
+        android:padding="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyStory</string>
+    <string name="password_error">Panjang password minimal 8 karakter</string>
+    <string name="email_error">Format email salah</string>
+    <string name="email_empty">Email tidak boleh kosong</string>
+    <string name="name">Nama</string>
+    <string name="sign_up">Daftar</string>
+    <string name="no_account">Belum memiliki akun?</string>
+    <string name="name_empty">Nama tidak boleh kosong</string>
+    <string name="password_empty">Password tidak boleh kosong</string>
+    <string name="sign_in">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="setting">Pengaturan</string>
+    <string name="ok">Ok</string>
+    <string name="info">Info</string>
+    <string name="ui_tv_login">Sudah memiliki akun?</string>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="text_photo_story">Photo Story</string>
+    <string name="text_desc_hint">Tulis deskripsi disini…</string>
+    <string name="upload">Unggah</string>
+    <string name="desc_empty">Deskripsi tidak boleh kosong</string>
+    <string name="gallery_title">Pilih sebuah gambar</string>
+    <string name="camera_failed">Gagal memunculkan kamera.</string>
+    <string name="took_picture_failed">Gagal mengambil gambar.</string>
+    <string name="no_permission">Tidak mendapatkan permission.</string>
+    <string name="register_succes">"Berhasil Mendaftar Silakan Login"</string>
+    <string name="detail_title">Detail Story</string>
+    <string name="email_registered_error">Email Sudah Terdaftar</string>
+    <string name="login_error">Email atau password salah</string>
+    <string name="gallery">Galeri</string>
+    <string name="capture">Ambil</string>
+    <string name="add_story_button">Tombo menambah cerita</string>
+    <string name="appwidget_text">Story Widget</string>
+    <string name="empty_text">Tidak ada data</string>
+    <string name="no_story">Belum ada story</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="switch_camera">Ganti kamera</string>
+    <string name="retry">ulang</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="add_location">Lokasi</string>
+    <string name="story_image">Gambar Story</string>
+    <string name="location_unknown">Lokasi tidak diketahui</string>
+</resources>

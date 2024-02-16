@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MyStory</string>
+    <string name="password_error">Password length must atleast 8 characters</string>
+    <string name="email_error">Wrong email format</string>
+    <string name="email_empty">Email cannot be empty</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="name_empty">Name cannot be empty</string>
+    <string name="password_empty">Password cannot be empty</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="ok">OK</string>
+    <string name="info">Info</string>
+    <string name="ui_tv_login">already have an account?</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="text_photo_story">Photo Story</string>
+    <string name="text_desc_hint">Write caption…</string>
+    <string name="upload">Upload</string>
+    <string name="desc_empty">Description cannot be empty</string>
+    <string name="gallery_title">Chosse an image</string>
+    <string name="camera_failed">Failed to show camera.</string>
+    <string name="took_picture_failed">Failed to took picture.</string>
+    <string name="no_permission">No permission granted.</string>
+    <string name="register_succes">"Register success please login"</string>
+    <string name="detail_title">Detail Story</string>
+    <string name="email_registered_error">Email already registered</string>
+    <string name="login_error">Wrong email or password</string>
+    <string name="gallery">Gallery</string>
+    <string name="capture">Capture</string>
+    <string name="add_story_button">Add story button</string>
+    <string name="appwidget_text">Story Widget</string>
+    <string name="empty_text">No Data</string>
+    <string name="no_story">No story yet</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="switch_camera">Switch camera</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="retry">retry</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="add_location">Location</string>
+    <string name="story_image">Story Image</string>
+    <string name="location_unknown">Location Unknown</string>
+</resources>

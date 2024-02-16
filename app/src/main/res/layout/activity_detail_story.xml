@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user"
+            android:transitionName="profile_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_user"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            tools:text="Username" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_user"
+            app:layout_constraintTop_toBottomOf="@+id/tv_username"
+            tools:text="location"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_story"
+            android:transitionName="image"
+            android:layout_width="0dp"
+            android:layout_height="450dp"
+            android:background="@color/black"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_user"
+            android:contentDescription="@string/story_image"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+        <TextView
+            android:id="@+id/tv_Story"
+            android:transitionName="desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_story"
+            tools:text="Lorem impsum test lprem sda eesai sadklm saklmmd adksmldsa" />
+
+        <TextView
+            android:id="@+id/tv_upload_date"
+            android:transitionName="date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5dp"
+            android:paddingBottom="10dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Story"
+            tools:text="Uploaded 2 days ago" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_edit_text"
+            android:padding="10dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
