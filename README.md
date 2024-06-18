@@ -15,6 +15,12 @@
 - Detail story
 - Dark Mode
 - Loading Indicator
+
+**Tools**
+- Geo Location
+- CameraX
+- Retrofit
+- RoomDB
   
 ## Disclaimer ⚠️
 This repository is created for sharing and educational purposes only. Plagiarism is unacceptable and is not my responsibility as the author.
