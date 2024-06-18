@@ -17,7 +17,7 @@
 - Loading Indicator
 
 **Tools**
-- Geo Location
+- Gmaps
 - CameraX
 - Retrofit
 - RoomDB
