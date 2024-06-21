@@ -5,7 +5,7 @@
 
 ![Frame 1](https://github.com/agungdwi/Moviedb/assets/89433301/57f6a1f8-7770-41cb-9666-47bab7b66214)
 
-**StrotyApp**
+**StroyApp**
 <p>StoryApp is a user-friendly platform that enables users to effortlessly post pictures with accompanying captions. Built using the Kotlin language and the MVVM pattern, this application ensures seamless performance and usability.</p>
 
 **Description**
