@@ -1,4 +1,7 @@
-# Dicoding: Android Intermediate Submission (StoryApp)
+
+<h1 align="center">
+  Dicoding: Android Intermediate Submission (StoryApp)
+</h1>
 ![Frame 1](https://github.com/agungdwi/Moviedb/assets/89433301/57f6a1f8-7770-41cb-9666-47bab7b66214)
 
 **StrotyApp**
